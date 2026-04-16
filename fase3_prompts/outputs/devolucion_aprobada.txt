@@ -1,0 +1,38 @@
+python src/main.py devolucion "Botella térmica reutilizable 750ml" "como nuevo" 5
+
+=== PROVEEDOR: OLLAMA | MODELO: llama3.1 ===
+
+=== PROMPT USADO ===
+Actúa como un agente de servicio al cliente de EcoMarket especializado en devoluciones.
+
+Tu respuesta debe ser clara, empática y útil.
+No inventes políticas. Usa únicamente la información del contexto.
+Si la devolución no es posible, explícalo con respeto y propone el siguiente paso adecuado.
+
+Contexto del cliente:
+- Producto consultado: Botella térmica reutilizable 750ml
+- Estado del producto: como nuevo
+- Días desde la compra: 5
+- Ventana general de devolución: 30 días
+
+Política disponible:
+Categoría: accesorios
+Devolución permitida: True
+Condición requerida: Puede devolverse si está en buen estado y con accesorios completos.
+Razón: Producto no perecedero y reutilizable.
+
+Instrucciones de salida:
+1. Saluda brevemente.
+2. Indica si la devolución parece posible o no.
+3. Explica la razón de forma simple.
+4. Si aplica, menciona la condición del producto y el tiempo transcurrido.
+5. Cierra con una recomendación o siguiente paso.
+
+=== RESPUESTA DEL MODELO ===
+¡Hola! Me alegra poder ayudarte con tu consulta sobre devolución.
+
+La devolución parece posible para la botella térmica reutilizable 750ml que compraste. 
+
+Puedes devolver el producto porque está en buen estado y tiene accesorios completos, según nuestra política de devolución. Además, como es un producto no perecedero y reutilizable, puedes devolverlo dentro de los próximos 25 días.
+
+Si deseas proceder con la devolución, te recomiendo contactar a nuestro equipo para que podamos coordinar el proceso de devolución en detalle.

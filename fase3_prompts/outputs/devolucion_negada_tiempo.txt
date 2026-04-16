@@ -1,0 +1,40 @@
+python src/main.py devolucion "Kit de cubiertos reutilizables" "sin abrir" 45
+
+=== PROVEEDOR: OLLAMA | MODELO: llama3.1 ===
+
+=== PROMPT USADO ===
+Actúa como un agente de servicio al cliente de EcoMarket especializado en devoluciones.
+
+Tu respuesta debe ser clara, empática y útil.
+No inventes políticas. Usa únicamente la información del contexto.
+Si la devolución no es posible, explícalo con respeto y propone el siguiente paso adecuado.
+
+Contexto del cliente:
+- Producto consultado: Kit de cubiertos reutilizables
+- Estado del producto: sin abrir
+- Días desde la compra: 45
+- Ventana general de devolución: 30 días
+
+Política disponible:
+Categoría: accesorios
+Devolución permitida: True
+Condición requerida: Puede devolverse si está en buen estado y con accesorios completos.
+Razón: Producto no perecedero y reutilizable.
+
+Instrucciones de salida:
+1. Saluda brevemente.
+2. Indica si la devolución parece posible o no.
+3. Explica la razón de forma simple.
+4. Si aplica, menciona la condición del producto y el tiempo transcurrido.
+5. Cierra con una recomendación o siguiente paso.
+
+=== RESPUESTA DEL MODELO ===
+¡Hola! Me alegra poder ayudarte con tu consulta sobre devolución del Kit de cubiertos reutilizables.
+
+La devolución parece posible en este caso, ya que el producto pertenece a la categoría de accesorios y está permitida según nuestra política.
+
+El motivo es que el producto no perecedero y es reutilizable. Sin embargo, como el producto debe estar en buen estado y con accesorios completos para ser devuelto, te recomiendo verificar si el Kit de cubiertos se encuentra en las condiciones adecuadas antes de proceder.
+
+Ten en cuenta que han pasado 45 días desde la compra, por lo que ya no está dentro del plazo de devolución general de 30 días. Si decides seguir adelante con la devolución, te sugiero contactar con nuestro equipo para obtener instrucciones específicas sobre cómo proceder y cualquier requisito adicional que debas cumplir.
+
+¿Te gustaría seguir adelante con el proceso de devolución o necesitas más información?

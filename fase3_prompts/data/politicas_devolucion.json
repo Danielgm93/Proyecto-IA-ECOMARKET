@@ -1,0 +1,40 @@
+{
+  "window_days_default": 30,
+  "policies": [
+    {
+      "category": "accesorios",
+      "examples": ["Botella térmica reutilizable 750ml", "Kit de cubiertos reutilizables", "Termo de acero inoxidable", "Cepillo para limpieza de botellas"],
+      "return_allowed": true,
+      "required_condition": "Puede devolverse si está en buen estado y con accesorios completos.",
+      "reason": "Producto no perecedero y reutilizable."
+    },
+    {
+      "category": "higiene_personal",
+      "examples": ["Cepillo dental de bambú"],
+      "return_allowed": false,
+      "required_condition": "No aplica devolución una vez entregado.",
+      "reason": "Producto de higiene personal."
+    },
+    {
+      "category": "cosmetica_natural",
+      "examples": ["Shampoo sólido natural", "Jabón artesanal vegano"],
+      "return_allowed": false,
+      "required_condition": "No aplica devolución una vez abierto o usado.",
+      "reason": "Producto de higiene o cuidado personal."
+    },
+    {
+      "category": "consumo_limpieza",
+      "examples": ["Detergente ecológico"],
+      "return_allowed": false,
+      "required_condition": "No aplica devolución por tratarse de un consumible.",
+      "reason": "Producto consumible."
+    },
+    {
+      "category": "hogar_natural",
+      "examples": ["Esponja vegetal natural"],
+      "return_allowed": true,
+      "required_condition": "Puede devolverse si está sin uso y dentro del plazo.",
+      "reason": "Producto no perecedero."
+    }
+  ]
+}

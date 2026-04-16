@@ -1,0 +1,92 @@
+[
+  {
+    "tracking_number": "EM-2026-0001",
+    "customer_name": "Laura Gómez",
+    "product": "Botella térmica reutilizable 750ml",
+    "status": "En tránsito",
+    "estimated_delivery": "2026-04-16",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0001",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0002",
+    "customer_name": "Carlos Ruiz",
+    "product": "Set de bolsas compostables",
+    "status": "Entregado",
+    "estimated_delivery": "2026-04-12",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0002",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0003",
+    "customer_name": "Natalia Pérez",
+    "product": "Cepillo dental de bambú",
+    "status": "Retrasado",
+    "estimated_delivery": "2026-04-18",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0003",
+    "delay_reason": "Demora del operador logístico por alta demanda"
+  },
+  {
+    "tracking_number": "EM-2026-0004",
+    "customer_name": "Andrés Molina",
+    "product": "Shampoo sólido natural",
+    "status": "Preparando envío",
+    "estimated_delivery": "2026-04-17",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0004",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0005",
+    "customer_name": "Sofía Herrera",
+    "product": "Kit de cubiertos reutilizables",
+    "status": "En tránsito",
+    "estimated_delivery": "2026-04-15",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0005",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0006",
+    "customer_name": "Miguel Castro",
+    "product": "Detergente ecológico",
+    "status": "Entregado",
+    "estimated_delivery": "2026-04-11",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0006",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0007",
+    "customer_name": "Valentina León",
+    "product": "Termo de acero inoxidable",
+    "status": "Retrasado",
+    "estimated_delivery": "2026-04-19",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0007",
+    "delay_reason": "Condiciones climáticas afectaron la ruta de entrega"
+  },
+  {
+    "tracking_number": "EM-2026-0008",
+    "customer_name": "Daniela Ríos",
+    "product": "Jabón artesanal vegano",
+    "status": "Preparando envío",
+    "estimated_delivery": "2026-04-18",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0008",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0009",
+    "customer_name": "Felipe Torres",
+    "product": "Cepillo para limpieza de botellas",
+    "status": "En tránsito",
+    "estimated_delivery": "2026-04-16",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0009",
+    "delay_reason": ""
+  },
+  {
+    "tracking_number": "EM-2026-0010",
+    "customer_name": "Paula Martínez",
+    "product": "Esponja vegetal natural",
+    "status": "Cancelado",
+    "estimated_delivery": "",
+    "tracking_url": "https://tracking.ecomarket.test/EM-2026-0010",
+    "delay_reason": "Pago no confirmado por la entidad financiera"
+  }
+]
