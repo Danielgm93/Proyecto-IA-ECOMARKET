@@ -1,0 +1,23 @@
+# EcoMarket RAG — Dependencias Python
+# Instalar con: pip install -r requirements.txt
+
+# Framework RAG
+langchain==0.2.16
+langchain-community==0.2.16
+
+# Modelo de embeddings (HuggingFace)
+sentence-transformers==3.0.1
+torch==2.3.1            # CPU-only es suficiente para embeddings
+
+# Base de datos vectorial
+chromadb==0.5.3
+
+# LLM — Groq (API gratuita, recomendado)
+langchain-groq==0.1.9
+groq==0.9.0
+
+# LLM — Ollama (local, alternativa sin costo)
+# langchain-community ya incluye el cliente de Ollama
+
+# Utilidades
+python-dotenv==1.0.1    # Cargar variables de entorno desde .env
