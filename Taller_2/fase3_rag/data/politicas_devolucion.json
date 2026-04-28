@@ -1,0 +1,84 @@
+{
+  "politicas_devolucion": [
+    {
+      "categoria": "Cuidado Personal y Belleza",
+      "plazo_dias": 15,
+      "condicion_requerida": "sellado_original",
+      "aplica_reembolso": true,
+      "aplica_cambio": true,
+      "notas": "No se aceptan devoluciones de productos abiertos por razones de higiene, a menos que el producto esté defectuoso.",
+      "ejemplos_productos": ["jabón artesanal", "shampoo sólido", "crema hidratante orgánica", "cepillo dental de bambú"]
+    },
+    {
+      "categoria": "Hogar y Cocina",
+      "plazo_dias": 30,
+      "condicion_requerida": "sin_uso_con_empaque",
+      "aplica_reembolso": true,
+      "aplica_cambio": true,
+      "notas": "Los utensilios de cocina pueden devolverse si no han sido usados y conservan el empaque original.",
+      "ejemplos_productos": ["vajilla de bambú", "bolsas de tela reutilizables", "contenedores de vidrio", "filtro de agua"]
+    },
+    {
+      "categoria": "Ropa y Textiles",
+      "plazo_dias": 30,
+      "condicion_requerida": "con_etiquetas_sin_lavar",
+      "aplica_reembolso": true,
+      "aplica_cambio": true,
+      "notas": "La ropa debe tener todas las etiquetas puestas y no haber sido lavada ni usada.",
+      "ejemplos_productos": ["camisetas de algodón orgánico", "bolsos de yute", "pañales de tela", "toallas de bambú"]
+    },
+    {
+      "categoria": "Alimentación y Bebidas",
+      "plazo_dias": 0,
+      "condicion_requerida": "no_aplica",
+      "aplica_reembolso": false,
+      "aplica_cambio": false,
+      "notas": "No se aceptan devoluciones de productos alimenticios por razones de seguridad sanitaria, a excepción de productos dañados o en mal estado al momento de la entrega.",
+      "ejemplos_productos": ["granola orgánica", "té de hierbas", "aceite de coco", "snacks naturales"]
+    },
+    {
+      "categoria": "Electrónica Sostenible",
+      "plazo_dias": 15,
+      "condicion_requerida": "en_caja_original_con_accesorios",
+      "aplica_reembolso": true,
+      "aplica_cambio": true,
+      "notas": "El producto debe estar en su caja original con todos los accesorios incluidos. El reembolso se procesa en 7 a 10 días hábiles.",
+      "ejemplos_productos": ["cargador solar", "lámpara LED recargable", "termo inteligente", "purificador de aire"]
+    },
+    {
+      "categoria": "Jardinería y Plantas",
+      "plazo_dias": 7,
+      "condicion_requerida": "planta_viva_en_buen_estado",
+      "aplica_reembolso": false,
+      "aplica_cambio": true,
+      "notas": "Solo se aceptan cambios, no reembolsos, y únicamente si la planta llegó en mal estado. Se debe reportar dentro de las 48 horas de recibida con fotos.",
+      "ejemplos_productos": ["plantas de interior", "semillas orgánicas", "macetas biodegradables", "composteras"]
+    },
+    {
+      "categoria": "General (sin categoría específica)",
+      "plazo_dias": 15,
+      "condicion_requerida": "empaque_original",
+      "aplica_reembolso": true,
+      "aplica_cambio": true,
+      "notas": "Para productos que no encajan en las categorías anteriores, aplica la política general de 15 días.",
+      "ejemplos_productos": []
+    }
+  ],
+  "proceso_devolucion": {
+    "pasos": [
+      "1. Solicitar la devolución en 'Mis Pedidos' → 'Devolver producto' o contactando al chatbot.",
+      "2. Esperar aprobación (máximo 1 día hábil).",
+      "3. Imprimir la guía de devolución enviada al correo registrado.",
+      "4. Empacar el producto en su estado original y llevarlo a cualquier punto Servientrega.",
+      "5. El reembolso se aplica al método de pago original en el plazo indicado."
+    ],
+    "plazos_reembolso": {
+      "tarjeta_credito": "5 a 7 días hábiles",
+      "tarjeta_debito": "3 a 5 días hábiles",
+      "PSE": "3 a 5 días hábiles",
+      "Nequi_Daviplata": "1 a 2 días hábiles",
+      "electrónica_sostenible": "7 a 10 días hábiles"
+    },
+    "costo_envio_devolucion": "EcoMarket cubre el costo del envío de devolución si el motivo es defecto de fábrica o error en el pedido. En cambios por preferencia del cliente, el costo del envío de devolución es asumido por el cliente."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "catalogo": [
+    {
+      "id": "PROD-001",
+      "nombre": "Kit de cocina sostenible (bambú)",
+      "categoria": "Hogar y Cocina",
+      "precio": 85000,
+      "stock": 42,
+      "descripcion": "Kit completo de utensilios de cocina fabricados en bambú certificado FSC. Incluye cuchara, espátula, tenedor y palillos. Resistente al calor hasta 120°C. 100% biodegradable.",
+      "materiales": "Bambú certificado FSC, barniz a base de agua",
+      "certificaciones": ["FSC"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 0.8
+    },
+    {
+      "id": "PROD-002",
+      "nombre": "Shampoo sólido de romero",
+      "categoria": "Cuidado Personal y Belleza",
+      "precio": 28000,
+      "stock": 118,
+      "descripcion": "Shampoo en barra de 80g, equivalente a 2 botellas de shampoo líquido. Fórmula libre de sulfatos, parabenos y plásticos. Ideal para cabello normal a graso. Aroma fresco de romero.",
+      "materiales": "Aceite de ricino, aceite de coco, extracto de romero, manteca de karité",
+      "certificaciones": ["COSMOS Organic", "Cruelty Free"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 0.2
+    },
+    {
+      "id": "PROD-003",
+      "nombre": "Cargador solar portátil 10000mAh",
+      "categoria": "Electrónica Sostenible",
+      "precio": 175000,
+      "stock": 27,
+      "descripcion": "Cargador solar de alta eficiencia (22%) con capacidad de 10000mAh. Compatible con smartphones, tablets y dispositivos USB. Cuerpo fabricado con plástico reciclado post-consumo. Incluye cable USB-C y micro-USB.",
+      "materiales": "Plástico reciclado PCR, panel fotovoltaico monocristalino",
+      "certificaciones": ["RoHS", "CE"],
+      "pais_fabricacion": "China (proveedor auditado)",
+      "huella_carbono_envio_kg_CO2": 1.4
+    },
+    {
+      "id": "PROD-004",
+      "nombre": "Set de ropa interior de algodón orgánico",
+      "categoria": "Ropa y Textiles",
+      "precio": 120000,
+      "stock": 55,
+      "descripcion": "Set de 3 prendas de ropa interior (braga/bóxer) confeccionadas en algodón 100% orgánico certificado GOTS. Tinturas naturales, sin agentes blanqueadores. Disponible en tallas XS a XL.",
+      "materiales": "Algodón orgánico 95%, elastano 5%",
+      "certificaciones": ["GOTS", "OEKO-TEX Standard 100", "Fair Trade"],
+      "pais_fabricacion": "India (comercio justo certificado)",
+      "huella_carbono_envio_kg_CO2": 0.6
+    },
+    {
+      "id": "PROD-005",
+      "nombre": "Granola orgánica de avena y frutos rojos x500g",
+      "categoria": "Alimentación y Bebidas",
+      "precio": 32000,
+      "stock": 203,
+      "descripcion": "Granola artesanal elaborada con avena orgánica, arándanos deshidratados, frambuesas, semillas de chía y miel de abejas nativas. Sin azúcar refinada. Bolsa compostable de 500g.",
+      "materiales": "Avena orgánica, frutos rojos, semillas, miel",
+      "certificaciones": ["NTC 512 Orgánico Colombia", "Sin gluten"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 0.3
+    },
+    {
+      "id": "PROD-006",
+      "nombre": "Compostera doméstica de 20L",
+      "categoria": "Jardinería y Plantas",
+      "precio": 95000,
+      "stock": 34,
+      "descripcion": "Compostera para uso doméstico con capacidad de 20 litros. Fabricada con plástico reciclado 100%. Sistema de ventilación optimizado para acelerar el proceso de compostaje. Incluye guía de compostaje en español.",
+      "materiales": "Plástico reciclado 100% post-consumo",
+      "certificaciones": ["Símbolo de Reciclaje Möbius"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 1.2
+    },
+    {
+      "id": "PROD-007",
+      "nombre": "Filtro de agua de cerámica con soporte de bambú",
+      "categoria": "Hogar y Cocina",
+      "precio": 210000,
+      "stock": 18,
+      "descripcion": "Sistema de filtración de agua en dos etapas: cerámica diatómica (elimina 99.9% de bacterias) + carbón activado (elimina cloro y metales pesados). Soporte de bambú certificado FSC. Capacidad: 10 litros. Sin electricidad ni plástico.",
+      "materiales": "Cerámica diatómica, carbón activado de coco, bambú FSC, acero inoxidable",
+      "certificaciones": ["NSF/ANSI 42", "FSC"],
+      "pais_fabricacion": "India",
+      "huella_carbono_envio_kg_CO2": 2.1
+    },
+    {
+      "id": "PROD-008",
+      "nombre": "Kit de semillas orgánicas (10 variedades)",
+      "categoria": "Jardinería y Plantas",
+      "precio": 45000,
+      "stock": 89,
+      "descripcion": "Kit de 10 sobres de semillas orgánicas para huerto urbano: tomate cherry, lechuga, espinaca, albahaca, cilantro, pimentón, pepino, zanahoria, cebollín y perejil. Semillas no OGM, libres de pesticidas. Incluye guía de siembra.",
+      "materiales": "Semillas orgánicas certificadas, sobres de papel kraft reciclado",
+      "certificaciones": ["USDA Organic", "Non-GMO Project"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 0.2
+    },
+    {
+      "id": "PROD-009",
+      "nombre": "Bolsas de tela reutilizables (pack x5)",
+      "categoria": "Hogar y Cocina",
+      "precio": 38000,
+      "stock": 175,
+      "descripcion": "Pack de 5 bolsas de tela reutilizables en diferentes tamaños (S, M, L, XL, XL con cierre). Fabricadas en algodón orgánico certificado. Reemplazan más de 500 bolsas plásticas. Lavables a máquina.",
+      "materiales": "Algodón orgánico certificado GOTS",
+      "certificaciones": ["GOTS"],
+      "pais_fabricacion": "Colombia",
+      "huella_carbono_envio_kg_CO2": 0.3
+    },
+    {
+      "id": "PROD-010",
+      "nombre": "Cepillo dental de bambú (pack x4)",
+      "categoria": "Cuidado Personal y Belleza",
+      "precio": 24000,
+      "stock": 312,
+      "descripcion": "Pack de 4 cepillos dentales de bambú certificado con cerdas de nylon 6 (BPA free). Mango 100% compostable. Colores identificadores en cada cepillo. Empaque de papel kraft reciclado. Misma eficacia que un cepillo plástico convencional.",
+      "materiales": "Bambú certificado Moso, nylon 6 BPA free",
+      "certificaciones": ["FSC", "BPA Free"],
+      "pais_fabricacion": "China (proveedor auditado)",
+      "huella_carbono_envio_kg_CO2": 0.2
+    }
+  ]
+}
