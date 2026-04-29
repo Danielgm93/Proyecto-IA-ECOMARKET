@@ -11,8 +11,9 @@ Se seleccionó este modelo por su alta eficiencia y rendimiento en tareas de rec
 
 - Alternativa descartada: Se evaluó text-embedding-3-small de OpenAI, pero se descartó para evitar la dependencia de APIs pagas y el envío de datos sensibles a servidores externos.
 
-## 2. Base de Datos VectorialSelección: 
-ChromaDB.  
+## 2. Base de Datos Vectorial
+
+## Selección: ChromaDB.  
 
 ## Justificación: 
 Es una base de datos vectorial de código abierto que permite el almacenamiento local (embebido). Es ideal para EcoMarket porque no requiere infraestructura adicional y se integra de forma nativa con LangChain.  Escalabilidad: Permite manejar miles de fragmentos de información con latencias mínimas, permitiendo búsquedas por similitud rápidas incluso en hardware modesto.  
