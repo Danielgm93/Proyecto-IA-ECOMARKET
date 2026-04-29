@@ -39,7 +39,7 @@ El sistema sigue un flujo de procesamiento local para garantizar la privacidad d
 - Generación: Se utiliza Llama 3 con un prompt estricto que prohíbe inventar información fuera del contexto.  
 ```
 ## Limitaciones y Suposiciones (Rúbrica Fase 3)
-
+```
 De acuerdo con los requerimientos del taller, se detallan las siguientes consideraciones:  
 
 - Infraestructura: El sistema está diseñado para correr localmente mediante Ollama. En entornos como Google Colab, el rendimiento depende de la disponibilidad de GPU; de lo contrario, la latencia de respuesta puede ser alta.
@@ -47,8 +47,6 @@ De acuerdo con los requerimientos del taller, se detallan las siguientes conside
 - Memoria: El asistente actual procesa cada pregunta de forma independiente (stateless). No mantiene historial de la conversación previa.
 - Suposición de Veracidad: Se asume que los archivos en la carpeta /data son la única fuente de verdad. Si un dato no existe allí, el modelo está instruido para responder: "Lo siento, no tengo las herramientas para atender su solicitud"[cite: 1, 2].
 ---
----
-
 ## Ejecución rápida (Google Colab)
 1. Sube el archivo Taller2_EcoMarket_RAG_v2.ipynb a Google Colab.
 2. Asegúrate de que la carpeta /data esté cargada o vinculada desde este repositorio.
