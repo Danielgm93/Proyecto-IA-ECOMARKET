@@ -40,7 +40,6 @@ El sistema sigue un flujo de procesamiento local para garantizar la privacidad d
 ```
 ## Limitaciones y Suposiciones (Rúbrica Fase 3)
 
-```
 De acuerdo con los requerimientos del taller, se detallan las siguientes consideraciones:  
 
 - Infraestructura: El sistema está diseñado para correr localmente mediante Ollama. En entornos como Google Colab, el rendimiento depende de la disponibilidad de GPU; de lo contrario, la latencia de respuesta puede ser alta.
